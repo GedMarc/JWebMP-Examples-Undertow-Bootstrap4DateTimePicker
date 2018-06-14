@@ -7,7 +7,6 @@ import com.jwebmp.base.ajax.AjaxResponse;
 import com.jwebmp.base.html.Paragraph;
 import com.jwebmp.guiceinjection.GuiceContext;
 import com.jwebmp.logger.LogFactory;
-import com.jwebmp.logger.handlers.ConsoleSTDOutputHandler;
 import com.jwebmp.plugins.bs4datetimepicker.BS4DateTimePicker;
 import com.jwebmp.plugins.bs4datetimepicker.options.BS4DateTimeViewModes;
 import io.undertow.Undertow;
@@ -18,9 +17,7 @@ import io.undertow.servlet.api.DeploymentManager;
 
 import javax.servlet.ServletException;
 import java.time.LocalDate;
-import java.util.logging.Handler;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class BS4DateTimePickerExample
 		extends Page
@@ -75,15 +72,7 @@ public class BS4DateTimePickerExample
 	 */
 	public static void main(String[] args) throws ServletException
 	{
-		Handler[] handles = Logger.getLogger("")
-		                          .getHandlers();
-		for (Handler handle : handles)
-		{
-			handle.setLevel(Level.FINE);
-		}
-		LogFactory.setDefaultLevel(Level.FINE);
-		Logger.getLogger("")
-		      .addHandler(new ConsoleSTDOutputHandler(true));
+		LogFactory.configureConsoleColourOutput(Level.FINE);
 
 		DeploymentInfo servletBuilder = Servlets.deployment()
 		                                        .setClassLoader(BS4DateTimePickerExample.class.getClassLoader())
