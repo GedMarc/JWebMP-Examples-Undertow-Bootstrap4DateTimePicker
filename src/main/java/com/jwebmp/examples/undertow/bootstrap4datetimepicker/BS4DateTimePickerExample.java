@@ -5,7 +5,7 @@ import com.jwebmp.PlaceHolder;
 import com.jwebmp.base.ajax.AjaxCall;
 import com.jwebmp.base.ajax.AjaxResponse;
 import com.jwebmp.base.html.Paragraph;
-import com.jwebmp.guiceinjection.GuiceContext;
+import com.jwebmp.guicedinjection.GuiceContext;
 import com.jwebmp.logger.LogFactory;
 import com.jwebmp.plugins.bs4datetimepicker.BS4DateTimePicker;
 import com.jwebmp.plugins.bs4datetimepicker.options.BS4DateTimeViewModes;
@@ -30,7 +30,6 @@ public class BS4DateTimePickerExample
 		BS4DateTimePicker defaultPicker = new BS4DateTimePicker();
 		defaultPicker.setID("defaultPicker");
 		add(defaultPicker);
-
 
 		BS4DateTimePicker birthdaypicker = new BS4DateTimePicker();
 		birthdaypicker.setID("birthdayPicker");
@@ -59,7 +58,6 @@ public class BS4DateTimePickerExample
 		inputGroup.setNoIcon();
 
 		add(inputGroup);
-
 
 	}
 
