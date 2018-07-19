@@ -20,18 +20,18 @@ import java.time.LocalDate;
 import java.util.logging.Level;
 
 public class BS4DateTimePickerExample
-		extends Page
+		extends Page<BS4DateTimePickerExample>
 {
 	public BS4DateTimePickerExample()
 	{
 		super("BS4 Date Time Picker - JWebSwing");
 		add(new Paragraph("Below is an example of the Bootstrap 4 Date Time Picker utilizing the Tempus Dominus (BS4) Plugin"));
 
-		BS4DateTimePicker defaultPicker = new BS4DateTimePicker();
+		BS4DateTimePicker<?> defaultPicker = new BS4DateTimePicker<>();
 		defaultPicker.setID("defaultPicker");
 		add(defaultPicker);
 
-		BS4DateTimePicker birthdaypicker = new BS4DateTimePicker();
+		BS4DateTimePicker<?> birthdaypicker = new BS4DateTimePicker<>();
 		birthdaypicker.setID("birthdayPicker");
 		birthdaypicker.getInput()
 		              .bind("subscribe.birthDate");
@@ -53,7 +53,7 @@ public class BS4DateTimePickerExample
 		getBody().add("The widget contains the entire API as found ");
 		add(new PlaceHolder("dynamicInsertWidget"));
 
-		BS4DateTimePicker inputGroup = new BS4DateTimePicker();
+		BS4DateTimePicker<?> inputGroup = new BS4DateTimePicker();
 		inputGroup.setID("testNoButton");
 		inputGroup.setNoIcon();
 
