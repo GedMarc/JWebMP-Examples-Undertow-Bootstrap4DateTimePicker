@@ -27,16 +27,24 @@
             <artifactId>jwebmp-core</artifactId>
             <version>${project.version}</version>
             <classifier>${jwebmp.runtime.classifier}</classifier>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>com.jwebmp</groupId>
             <artifactId>jwebmp-undertow</artifactId>
             <version>${project.version}</version>
             <classifier>${jwebmp.runtime.classifier}</classifier>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>com.jwebmp</groupId>
             <artifactId>jwebmp-bootstrap4-date-time-picker</artifactId>
+            <version>${project.version}</version>
+            <classifier>${jwebmp.runtime.classifier}</classifier>
+        </dependency>
+        <dependency>
+            <groupId>com.jwebmp</groupId>
+            <artifactId>jwebmp-bootstrap4</artifactId>
             <version>${project.version}</version>
             <classifier>${jwebmp.runtime.classifier}</classifier>
         </dependency>
