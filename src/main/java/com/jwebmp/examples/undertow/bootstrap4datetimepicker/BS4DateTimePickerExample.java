@@ -1,10 +1,10 @@
 package com.jwebmp.examples.undertow.bootstrap4datetimepicker;
 
-import com.jwebmp.Page;
-import com.jwebmp.PlaceHolder;
-import com.jwebmp.base.ajax.AjaxCall;
-import com.jwebmp.base.ajax.AjaxResponse;
-import com.jwebmp.base.html.Paragraph;
+import com.jwebmp.core.Page;
+import com.jwebmp.core.PlaceHolder;
+import com.jwebmp.core.base.ajax.AjaxCall;
+import com.jwebmp.core.base.ajax.AjaxResponse;
+import com.jwebmp.core.base.html.Paragraph;
 import com.jwebmp.guicedinjection.GuiceContext;
 import com.jwebmp.logger.LogFactory;
 import com.jwebmp.plugins.bs4datetimepicker.BS4DateTimePicker;
