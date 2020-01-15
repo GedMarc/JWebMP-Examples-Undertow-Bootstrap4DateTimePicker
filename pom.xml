@@ -23,12 +23,10 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.guicedee.services</groupId>
-            <artifactId>guice-servlet</artifactId>
+            <groupId>com.guicedee</groupId>
+            <artifactId>guiced-undertow</artifactId>
             <type>jar</type>
         </dependency>
-
-
         <dependency>
             <groupId>com.guicedee.services</groupId>
             <artifactId>undertow-core</artifactId>
@@ -52,11 +50,7 @@
             <artifactId>jwebmp-core</artifactId>
             <type>jar</type>
         </dependency>
-        <dependency>
-            <groupId>com.guicedee.servlets</groupId>
-            <artifactId>guiced-undertow</artifactId>
-            <type>jar</type>
-        </dependency>
+
         <dependency>
             <groupId>com.jwebmp.plugins.bootstrap</groupId>
             <artifactId>jwebmp-bootstrap-date-time-picker</artifactId>
