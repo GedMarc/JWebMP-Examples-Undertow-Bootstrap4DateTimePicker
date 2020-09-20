@@ -25,51 +25,42 @@
         <dependency>
             <groupId>com.guicedee</groupId>
             <artifactId>guiced-undertow</artifactId>
-            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>com.guicedee.services</groupId>
             <artifactId>undertow-core</artifactId>
-            <type>jar</type>
         </dependency>
 
         <dependency>
             <groupId>com.guicedee.services</groupId>
             <artifactId>undertow-servlet</artifactId>
-            <type>jar</type>
         </dependency>
 
         <dependency>
             <groupId>com.guicedee.services</groupId>
             <artifactId>undertow-websockets-jsr</artifactId>
-            <type>jar</type>
         </dependency>
 
         <dependency>
             <groupId>com.jwebmp.core</groupId>
             <artifactId>jwebmp-core</artifactId>
-            <type>jar</type>
         </dependency>
 
         <dependency>
             <groupId>com.jwebmp.plugins.bootstrap</groupId>
             <artifactId>jwebmp-bootstrap-date-time-picker</artifactId>
-            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>com.jwebmp.plugins.bootstrap</groupId>
             <artifactId>jwebmp-bootstrap</artifactId>
-            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>com.guicedee</groupId>
             <artifactId>guiced-injection</artifactId>
-            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>com.guicedee</groupId>
             <artifactId>guiced-log-master</artifactId>
-            <type>jar</type>
         </dependency>
     </dependencies>
     <scm>
