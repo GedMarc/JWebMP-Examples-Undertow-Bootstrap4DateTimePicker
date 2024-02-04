@@ -6,7 +6,7 @@ import com.jwebmp.core.base.ajax.AjaxCall;
 import com.jwebmp.core.base.ajax.AjaxResponse;
 import com.jwebmp.core.base.html.Paragraph;
 import com.guicedee.guicedinjection.GuiceContext;
-import com.guicedee.logger.LogFactory;
+
 import com.jwebmp.plugins.bs4.datetimepicker.BS4DateTimePicker;
 import com.jwebmp.plugins.bs4.datetimepicker.options.BS4DateTimeViewModes;
 import io.undertow.Undertow;
